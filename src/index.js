@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
-import Publico_Sabio_App from "./publico-sabio";
+import LadraStore_App from "./ladraStore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -14,8 +14,9 @@ root.render(
   <React.StrictMode>
     {/* Ferramenta BrowserRouter serve para controle de navegação das rotas */}
     <BrowserRouter>
-      <Publico_Sabio_App />
+      <LadraStore_App />
     </BrowserRouter>
+    
   </React.StrictMode>
 );
 

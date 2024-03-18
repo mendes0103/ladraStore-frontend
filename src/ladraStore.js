@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 
-function Publico_Sabio_App() {
+function LadraStore_App() {
   return (
     <>
       <Routes>
@@ -11,4 +11,4 @@ function Publico_Sabio_App() {
   );
 }
 
-export default Publico_Sabio_App;
+export default LadraStore_App;
