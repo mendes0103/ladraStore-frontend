@@ -1,11 +1,22 @@
+import Header from "../../components/header";
+import { ContainerForm } from "../../style/pages";
 
 
 function Login() {
     return (
-        <div>
-            <h1>Login Page</h1>
-            {/* Add your login form here */}
-        </div>
+       <>
+       <Header/>
+       <ContainerForm>
+       
+
+
+
+       </ContainerForm>
+       
+       
+       
+       
+       </>
     );
 }
 
